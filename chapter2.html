@@ -3,7 +3,40 @@
 
         <body>
 <h1> <a href= chapter2.html> </a></h1>
-            
+<p> A number system is a systematic way of representing numbers. In computing, different number systems are used for various purposes, from internal processing to data representation. The value of a digit in a positional number system depends on the digit itself, its position within the number, and the base (or radix) of the number system.</p>
+
+The main positional number systems we will study are:
+<pre> 
+<h3>Decimal Number System (Base-10) </h3> This is the number system we use daily. It has 10 unique digits (0-9). Each position represents a power of 10.
+<h3>Binary Number System (Base-2)</h3> This system is the foundation of all digital computers. It uses only two digits: 0 and 1 (bits). Each position represents a power of 2. Computers use binary because electronic circuits have two stable states: ON (1) or OFF (0).
+<h3>Octal Number System (Base-8)</h3> This system uses eight digits (0-7). Each position represents a power of 8. Octal is often used as a shorthand to represent long binary numbers because three binary digits can be represented by a single octal digit.
+<h3>Hexadecimal Number System (Base-16)</h3> This system uses sixteen digits (0-9 and A-F, where A represents 10, B represents 11, and so on, up to F for 15). Each position represents a power of 16. Hexadecimal is widely used in computer memory addressing and data representation due to its ability to represent four binary digits with a single hexadecimal digit.
+The base or radix of a number system indicates the total number of unique digits or symbols used in that system.
+</pre>
+<h2>Number System Conversions</h2>
+Converting numbers between different bases is a critical skill in computer science. Here, we'll cover the most common conversions.
+<pre>
+<h3>1. Decimal to Binary, Octal, and Hexadecimal Conversion</h3>
+To convert a decimal number to another base, we use the division-remainder method. Divide the decimal number by the target base repeatedly, noting the remainders at each step. The remainders, read from bottom to top, form the number in the new base.
+<h3>2. Binary, Octal, and Hexadecimal to Decimal Conversion</h3>
+To convert a number from any base to decimal, multiply each digit by its corresponding positional weight (base raised to the power of its position) and sum the results. Positions are counted from right to left, starting with 0.
+<h3>3. Binary to Octal and Hexadecimal Conversion</h3>
+<h4>Binary to Octal</h4>:<p>Group binary digits in sets of three from right to left, adding leading zeros if necessary. Convert each group of three binary digits into its equivalent octal digit.</p>
+<h4>Binary to Hexadecimal</h4>:<p>Group binary digits in sets of four from right to left, adding leading zeros if necessary. Convert each group of four binary digits into its equivalent hexadecimal digit.</p>
+</pre>
+<hr>
+<h2>Logic Funcction and Boolean Algebra</h2>
+<pre>
+<h3>Boolean Algebra</h3>: Named after George Boole, Boolean algebra is a branch of algebra in which the values of the variables are the truth values, true and false, usually denoted 1 and 0 respectively. It is fundamental to the design of digital electronic circuits.
+
+<h3>Boolean Values</h3>: These are the two possible values in Boolean algebra: True (represented as 1) and False (represented as 0). These correspond to the ON and OFF states of electronic switches.
+
+<h3>Truth Table</h3>: A truth table is a mathematical table used in logic, specifically in Boolean algebra, to compute the functional values of logical expressions for each combination of input values. It lists all possible input combinations and the corresponding output for a given logical operation or expression.
+
+<h3>Boolean Expression</h3>: A Boolean expression is an expression formed by combining Boolean variables (which can take values 0 or 1), logical operators (AND, OR, NOT), parentheses, and an equals sign. For example, A + B' is a Boolean expression.
+
+<h3>Boolean Function</h3>: A Boolean function, also known as a logic function, is an expression that produces a binary output (0 or 1) based on binary inputs. It defines the relationship between input variables and the output of a logic circuit. For a given set of binary variable values, the function can evaluate to either 0 or 1.
+</pre>
         </body>
     </head>
 </html>
